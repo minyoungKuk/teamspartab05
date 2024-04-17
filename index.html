@@ -12,9 +12,9 @@
         <div class="header">
             <div class="logo"></div>
             <div class="menu">
-                <span class="title">코딩 쉽지 않조!</span>
-                <a onclick="scrollToElement('#go')">팀 소개</a>
-                <a onclick="scrollToElement('#go2', 'start')">팀원 소개</a>
+                <span class="title" onclick="scrollToTop()">코딩 쉽지 않조!</span>
+                <a onclick="scrollToElement('#teamName')">팀 소개</a>
+                <a onclick="scrollToElement('#firstMainCard', 'start')">팀원 소개</a>
             </div>
         </div>
         <!-- 운성 -->
@@ -52,7 +52,7 @@
                     <div class="rectangle-9"></div>
                     <div class="rectangle-10"></div>
                     <div class="rectangle-11"></div>
-                    <div class="text-wrapper-5">우리 조 이름은?</div>
+                    <div id="teamName" class="text-wrapper-5">우리 조 이름은?</div>
                     <div class="text-wrapper-6">우리의 목표는?</div>
                     <div class="text-wrapper-7">우리 팀원수는?</div>
                 </div>
@@ -61,7 +61,7 @@
         <!-- 연희 -->
 
         <div class="mainCards">
-            <div class="mainCard">
+            <div id="firstMainCard" class="mainCard">
                 <div class="mainCardImgBox">
                     <div class="profileImageWrap">
                         <img src="./image/cat-5183427_1280.jpg" alt="mainCardImage" class="mainCardImg" />
