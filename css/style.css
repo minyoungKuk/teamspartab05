@@ -18,8 +18,8 @@ body {
   justify-content: center;
   width: 250px;
   height: 60px;
-  background-color: rgba(0, 106, 213, 0.7);
-  border: 2px solid rgba(0, 106, 213, 0.7);
+  background-color: #006ad5;
+  border: 2px solid #006ad5;
   border-radius: 4px;
   color: #fff;
   font-size: 1.2rem;
@@ -135,14 +135,14 @@ body {
 
 /* 글자들 */
 h1 {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 300;
   letter-spacing: 2px;
   font-size: 48px;
 }
 
-p {
-  font-family: 'Lato', sans-serif;
+.main p {
+  font-family: "Lato", sans-serif;
   letter-spacing: 2px;
   font-size: 20px;
   color: #333333;
@@ -210,11 +210,9 @@ p {
   animation-duration: 7s;
 }
 
-
 .parallax > use:nth-child(2) {
   animation-delay: -3s;
   animation-duration: 10s;
-
 }
 
 .parallax > use:nth-child(3) {
@@ -274,13 +272,13 @@ p {
 .mainCard {
   display: flex;
   flex-direction: row;
-  border: 2px solid rgba(0, 106, 213, 0.7);
+  border: 1px solid rgba(0, 106, 213, 0.7);
   border-radius: 5px;
   justify-content: space-between;
   width: 100%;
-  height: 25vh;
   padding: 20px;
   margin-bottom: 20px;
+  background-color: #f5faffc9;
 }
 .mainCardImgBox {
   display: flex;
@@ -289,8 +287,8 @@ p {
   margin: 0px 30px 0 10px;
 }
 .profileImageWrap {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border-radius: 70%;
   overflow: hidden;
 }
@@ -299,21 +297,72 @@ p {
   height: 100%;
   object-fit: cover;
 }
-.mainProfileName {
+.mainProfileMbti {
   margin: 20px 0 0 0;
   font-size: 20px;
   font-weight: 700;
-  color: rgba(0, 106, 213, 0.7);
+  color: #006ad5;
+  font-size: 2rem;
 }
 
 .mainCardsContents {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  justify-content: space-between;
 }
-.mainCardsContents p { 
+
+.mainCardsContents p {
   font-size: 1.2rem;
-  text-align: right; 
+  text-align: right;
+}
+
+.mainCardsContentsCon {
+  display: flex;
+}
+.mainCardsContents p.title {
+  color: #333333;
+  font-weight: 500;
+  background-color: #ffd7536e;
+  border-radius: 20px;
+  font-size: 1rem;
+  text-align: left;
+  text-indent: -2px;
+}
+.mainCard ul {
+  list-style: none;
+}
+.mainCard p:hover {
+  text-decoration: none;
+  cursor: none;
+}
+
+.mainCardsTxtBox {
+  display: flex;
+  flex-direction: row;
+}
+
+.mainCardsTxtBox ul {
+  list-style: none;
+  padding: 0;
+}
+
+.mainCardsTxtBox ul li {
+  padding-bottom: 6px;
+}
+
+.mainCardsTxtBox div {
+  margin-left: 40px;
+}
+mainCard .mainCardsTxtBox div .title {
+  background-color: #fff;
+  font-size: 1.2rem;
+  margin: 0;
+  text-align: left;
+  padding: 0;
+  background-color: #ffd7536e;
+  border-radius: 12px;
+  text-indent: -2px;
 }
 
 .mainCardsContents .btn {
@@ -349,7 +398,6 @@ p {
   display: flex;
   flex-direction: column;
   gap: 20px;
-
 }
 /* 윤서 작업본 */
 .mypostingbox {
@@ -390,5 +438,4 @@ p {
   margin: 20px;
 
   text-align: center;
-
 }
