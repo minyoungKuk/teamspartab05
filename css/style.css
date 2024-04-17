@@ -321,6 +321,13 @@ h1 {
 
 .mainCardsContentsCon {
   display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.mainCardsContentsCon .teamlogo {
+  width: 100px;
+  padding: 0;
+  /* background-color: #fff; */
 }
 .mainCardsContents p.title {
   color: #333333;
