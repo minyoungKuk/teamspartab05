@@ -51,7 +51,17 @@ body {
 /* 공통 nd */
 
 /* 운성 */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .header {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
   width: 100%;
   height: 100px;
   display: flex;
@@ -96,40 +106,12 @@ a:hover {
 .title {
   color: white;
   padding-right: 20px;
-}
-#go {
-  height: 300px;
-  margin-top: 600px;
-  padding: 20px;
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
+  cursor: pointer; /* 손 모양 커서 추가 */
+  text-decoration: none; /* 밑줄 제거 */
 }
 
-#go2 {
-  height: 300px;
-  margin-top: 0%;
-  padding: 20px;
-  text-align: center;
-}
-
-.zone {
-  width: 25%;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 2px solid black;
-  position: relative;
-}
-.zone p {
-  position: absolute;
-  top: 0px;
-  left: 10px;
-  color: black;
-  font-size: 16px;
-  font-weight: bold;
-  transition: all 0.5s ease;
+.title:hover {
+  text-decoration: underline; /* 마우스 오버 시 밑줄 효과 */
 }
 
 .List {
@@ -145,283 +127,148 @@ a:hover {
 
 /* 연희 */
 
-.macbook-pro {
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+
+body {
+  margin: 0;
 }
 
-.macbook-pro .overlap-group-wrapper {
-  background-color: #ffffff;
-  overflow: hidden;
-  width: 1728px;
-  height: 3248px;
-}
-
-.macbook-pro .overlap-group {
-  position: relative;
-  width: 2345px;
-  height: 3897px;
-  top: -119px;
-  left: -257px;
-}
-
-.macbook-pro .rectangle {
-  position: absolute;
-  width: 3627px;
-  height: 2345px;
-  top: 641px;
-  left: -641px;
-  background-color: #ffd653;
-  transform: rotate(90deg);
-}
-
-.macbook-pro .div {
-  position: absolute;
-  width: 246px;
-  height: 931px;
-  top: 119px;
-  left: 139px;
-  background-color: #006ad5;
-  border-radius: 0px 0px 156.5px 156.5px;
-}
-
-.macbook-pro .rectangle-2 {
-  position: absolute;
-  width: 245px;
-  height: 741px;
-  top: 119px;
-  left: 385px;
-  background-color: #006ad5;
-  border-radius: 0px 0px 157px 157px;
-}
-
-.macbook-pro .rectangle-3 {
-  position: absolute;
-  width: 246px;
-  height: 840px;
-  top: 119px;
-  left: 629px;
-  background-color: #006ad5;
-  border-radius: 0px 0px 157px 157px;
-}
-
-.macbook-pro .rectangle-4 {
-  position: absolute;
-  width: 245px;
-  height: 924px;
-  top: 119px;
-  left: 875px;
-  background-color: #006ad5;
-  border-radius: 0px 0px 156.5px 156.5px;
-}
-
-.macbook-pro .rectangle-5 {
-  position: absolute;
-  width: 245px;
-  height: 893px;
-  top: 119px;
-  left: 1366px;
-  background-color: #006ad5;
-  border-radius: 0px 0px 157px 157px;
-}
-
-.macbook-pro .rectangle-6 {
-  position: absolute;
-  width: 246px;
-  height: 741px;
-  top: 119px;
-  left: 1120px;
-  background-color: #006ad5;
-  border-radius: 0px 0px 157px 157px;
-}
-
-.macbook-pro .rectangle-7 {
-  position: absolute;
-  width: 246px;
-  height: 787px;
-  top: 119px;
-  left: 1610px;
-  background-color: #006ad5;
-  border-radius: 0px 0px 156.5px 156.5px;
-}
-
-.macbook-pro .rectangle-8 {
-  position: absolute;
-  width: 246px;
-  height: 931px;
-  top: 119px;
-  left: 1856px;
-  background-color: #006ad5;
-  border-radius: 0px 0px 157px 157px;
-}
-
-.macbook-pro .nevertheless {
-  position: absolute;
-  top: 342px;
-  left: 841px;
-  font-family: 'Gowun Batang-Regular', Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 24px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 24px;
-}
-
-.macbook-pro .text-wrapper {
-  line-height: 38.4px;
-}
-
-.macbook-pro .span {
-  line-height: 28.1px;
-}
-
-.macbook-pro .text-wrapper-2 {
-  position: absolute;
-  top: 228px;
-  left: 968px;
-  -webkit-text-stroke: 0.5px #000000;
-  font-family: 'Gowun Batang-Regular', Helvetica;
-  font-weight: 400;
-  color: #000000;
+/* 글자들 */
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  letter-spacing: 2px;
   font-size: 48px;
-  letter-spacing: 0;
-  line-height: 76.8px;
-  white-space: nowrap;
 }
 
-.macbook-pro .NE-VER-THE-LESS {
-  position: absolute;
-  width: 987px;
-  top: 2640px;
-  left: 1011px;
-  font-family: 'Microsoft Sans Serif-Regular', Helvetica;
-  font-weight: 400;
-  color: #ffffff99;
-  font-size: 190px;
-  text-align: right;
-  letter-spacing: 19px;
-  line-height: 188.1px;
+p {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color: #333333;
 }
 
-.macbook-pro .b {
-  position: absolute;
-  width: 298px;
-  top: 1233px;
-  left: 232px;
-  font-family: 'Microsoft Sans Serif-Regular', Helvetica;
-  font-weight: 400;
-  color: #ffffff99;
-  font-size: 200px;
-  letter-spacing: 0;
-  line-height: 158px;
+.bo5 {
+  opacity: 0.1;
+  font-size: 300px;
+  width: 50px;
+  fill: white;
+  padding-right: 15px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
-.macbook-pro .text-wrapper-3 {
-  font-family: 'Microsoft Sans Serif-Regular', Helvetica;
-  font-weight: 400;
-  color: #ffffff99;
-  font-size: 200px;
-  letter-spacing: 0;
-  line-height: 158px;
+/* 모형들 */
+
+.main {
+  position: fixed;
+  position: relative;
+  text-align: center;
+  background-color: #006ad5;
+  color: white;
 }
 
-.macbook-pro .text-wrapper-4 {
-  font-size: 220px;
-  line-height: 173.8px;
+.withoutwave {
+  height: 65vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-.macbook-pro .rectangle-9 {
-  position: absolute;
-  width: 494px;
-  height: 257px;
-  top: 1105px;
-  left: 338px;
-  background-color: #ffffff4c;
-  border-radius: 74px;
-  border: 5px solid;
-  border-color: #000000;
+.waves {
+  position: relative;
+  width: 100%;
+  height: 15vh;
+  margin-bottom: -7px;
+  /*Fix for safari gap*/
+  min-height: 100px;
+  max-height: 150px;
 }
 
-.macbook-pro .rectangle-10 {
-  position: absolute;
-  width: 494px;
-  height: 257px;
-  top: 1105px;
-  left: 874px;
-  background-color: #ffffff4c;
-  border-radius: 74px;
-  border: 5px solid;
-  border-color: #000000;
+.content {
+  position: relative;
+  height: 20vh;
+  text-align: center;
+  background-color: white;
 }
 
-.macbook-pro .rectangle-11 {
-  position: absolute;
-  width: 494px;
-  height: 257px;
-  top: 1105px;
-  left: 1410px;
-  background-color: #ffffff4c;
-  border-radius: 74px;
-  border: 5px solid;
-  border-color: #000000;
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.macbook-pro .text-wrapper-5 {
-  top: 1207px;
-  left: 435px;
-  -webkit-text-stroke: 1px #000000;
-  font-size: 45px;
-  text-align: right;
-  letter-spacing: 4.5px;
-  line-height: 44.6px;
-  position: absolute;
-  font-family: 'Gowun Batang-Regular', Helvetica;
-  font-weight: 400;
-  color: #000000;
-  white-space: nowrap;
+/* Animation */
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
 }
 
-.macbook-pro .text-wrapper-6 {
-  top: 1207px;
-  left: 990px;
-  -webkit-text-stroke: 1px #000000;
-  font-size: 45px;
-  text-align: right;
-  letter-spacing: 4.5px;
-  line-height: 44.6px;
-  position: absolute;
-  font-family: 'Gowun Batang-Regular', Helvetica;
-  font-weight: 400;
-  color: #000000;
-  white-space: nowrap;
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
 }
 
-.macbook-pro .text-wrapper-7 {
-  top: 1207px;
-  left: 1520px;
-  -webkit-text-stroke: 1px #000000;
-  font-size: 45px;
-  text-align: right;
-  letter-spacing: 4.5px;
-  line-height: 44.6px;
-  position: absolute;
-  font-family: 'Gowun Batang-Regular', Helvetica;
-  font-weight: 400;
-  color: #000000;
-  white-space: nowrap;
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+
+@keyframes move-forever {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(85px, 0, 0);
+  }
+}
+
+/*for mobile*/
+@media (max-width: 768px) {
+  .waves {
+    height: 40px;
+    min-height: 40px;
+  }
+
+  .content {
+    height: 30vh;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+}
+
+.main > button {
+  width: 150px;
+  height: 50px;
+  background-color: #ffd653;
+  border: none;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50px;
 }
 
 /* 연희 */
 
 /* mainPage cardSection */
-
 .mainCards {
-  margin: 80px 0;
+  margin: 0 auto 100px auto;
   padding: 20px;
+  width: 80%;
 }
 .mainCard {
   display: flex;
@@ -429,7 +276,6 @@ a:hover {
   border: 2px solid rgba(0, 106, 213, 0.7);
   border-radius: 5px;
   justify-content: space-between;
-
   width: 100%;
   height: 25vh;
   padding: 20px;
@@ -465,11 +311,8 @@ a:hover {
   align-items: flex-end;
 }
 .mainCardsContents p {
-  /* border: 1px solid rgba(0, 106, 213, 0.7); */
-  /* border-radius: 4px; */
   font-size: 1.2rem;
   text-align: right;
-  /* padding: 20px; */
 }
 
 .mainCardsContents .btn {
@@ -479,4 +322,30 @@ a:hover {
 
 .mainCardsContents .btn.default:hover {
   transform: scale(1.02);
+}
+
+/* 현우 작업본 */
+.item {
+  width: 360px;
+  height: 315px;
+  border: 1px solid black;
+  text-align: center;
+
+  margin: 20px right 20px auto;
+  h2 {
+    border-bottom: 1px solid black;
+  }
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+
+  align-items: stretch;
+}
+.container-wrapper {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
