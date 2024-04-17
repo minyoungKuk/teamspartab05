@@ -475,3 +475,30 @@ a:hover {
 .mainCardsContents .btn.default:hover {
   transform: scale(1.02);
 }
+
+/* 현우 작업본 */
+.item {
+  width: 360px;
+  height: 315px;
+  border: 1px solid black;
+  text-align: center;
+
+  margin: 20px right 20px auto;
+  h2 {
+    border-bottom: 1px solid black;
+  }
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+
+  align-items: stretch;
+  
+}
+.container-wrapper {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
