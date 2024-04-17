@@ -349,8 +349,7 @@ p {
   display: flex;
   flex-direction: column;
   gap: 20px;
-<<<<<<< HEAD
-=======
+
 }
 /* 윤서 작업본 */
 .mypostingbox {
@@ -391,5 +390,5 @@ p {
   margin: 20px;
 
   text-align: center;
->>>>>>> c2ca838676844023151c96de72720e11cb76f980
+
 }
