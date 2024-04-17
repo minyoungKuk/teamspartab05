@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
 
 /* 공통 st */
 * {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-optical-sizing: auto;
   box-sizing: border-box;
 }
@@ -74,7 +74,7 @@ body {
 .logo {
   width: 300px;
   height: 100px;
-  background-image: url('https://ifh.cc/g/31dCk4.png');
+  background-image: url("https://ifh.cc/g/31dCk4.png");
   background-position: center;
   background-size: cover;
 }
@@ -210,9 +210,11 @@ p {
   animation-duration: 7s;
 }
 
+
 .parallax > use:nth-child(2) {
   animation-delay: -3s;
   animation-duration: 10s;
+
 }
 
 .parallax > use:nth-child(3) {
@@ -266,9 +268,8 @@ p {
 
 /* mainPage cardSection */
 .mainCards {
-  margin: 0 auto 100px auto;
+  margin: 80px 0;
   padding: 20px;
-  width: 80%;
 }
 .mainCard {
   display: flex;
@@ -310,9 +311,9 @@ p {
   flex-direction: column;
   align-items: flex-end;
 }
-.mainCardsContents p {
+.mainCardsContents p { 
   font-size: 1.2rem;
-  text-align: right;
+  text-align: right; 
 }
 
 .mainCardsContents .btn {
@@ -348,4 +349,47 @@ p {
   display: flex;
   flex-direction: column;
   gap: 20px;
+<<<<<<< HEAD
+=======
+}
+/* 윤서 작업본 */
+.mypostingbox {
+  width: 400px;
+  height: fit-content;
+
+  padding: 30px;
+  box-shadow: 0px 0px 3px 0px black;
+  border-radius: 5px;
+  background-color: white;
+
+  justify-content: center;
+}
+.myimg {
+  width: 300px;
+  height: 300px;
+
+  margin: 30px auto 0px auto;
+  box-shadow: 0px 0px 3px 0px black;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+.moge {
+  height: 200px;
+  font-family: "Jua", sans-serif;
+  text-align: center;
+  h2 {
+    margin: 10px;
+  }
+}
+.jua-regular {
+  font-family: "Jua", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  color: #006ad5;
+  margin: 20px;
+
+  text-align: center;
+>>>>>>> c2ca838676844023151c96de72720e11cb76f980
 }
