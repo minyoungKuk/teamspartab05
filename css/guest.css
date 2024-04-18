@@ -86,8 +86,7 @@ a:hover {
 }
 
 .input_layout {
-    display: flex;
-    justify-content: space-evenly;
+    text-align: center;
 }
 
 .between {
@@ -107,7 +106,7 @@ a:hover {
 
 .ex {
     width: 800px;
-    margin: 120px 0px 0px 25%;
+    margin: 120px auto;
 }
 .hr {
     margin-top: 80px;
