@@ -173,6 +173,8 @@ p {
 
 /* 모형들 */
 
+
+
 .main {
     position: fixed;
     position: relative;
@@ -215,7 +217,8 @@ p {
 
 }
 
-.flex {
+.flex { 
+  margin: 0 19% 0 19%;
 
     display: flex;
     justify-content: center;
@@ -225,14 +228,15 @@ p {
 
 .yhcard {
     border-radius: 15vh;
-    border-style: dashed;
-    border-color: #FE574B;
-    border-width: 3px;
+    border-style:ridge;
+    border-color: #006AD5;
+    border-width: 1px;
     border-radius: 5vh;
-    margin: 0 5% 0 5%;
+    margin:0 5% 0 5%;
     padding: 5px 25px 5px 25px;
 
 }
+
 
 
 /* Animation */
