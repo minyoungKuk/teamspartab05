@@ -125,11 +125,12 @@ a:hover {
     display: flex;
     align-items:flex-end;
     margin-top: 5%;
+    margin-left: 25%;
   }
 
   .card-body{
     position:relative;
-    margin-left: 40%;
+    margin-left: 38%;
     text-align: center;
   }
 /* 연희 끝 */
