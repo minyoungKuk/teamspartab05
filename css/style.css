@@ -1,126 +1,126 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
 
 /* 공통 st */
 * {
-  font-family: "Noto Sans KR", sans-serif;
-  font-optical-sizing: auto;
-  box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-optical-sizing: auto;
+    box-sizing: border-box;
 }
 body {
-  margin: 0;
+    margin: 0;
 }
 
 .btn {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  width: 250px;
-  height: 60px;
-  background-color: #006ad5;
-  border: 2px solid #006ad5;
-  border-radius: 4px;
-  color: #fff;
-  font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 250px;
+    height: 60px;
+    background-color: #006ad5;
+    border: 2px solid #006ad5;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1.2rem;
 }
 
 .btn:hover {
-  background-color: #fff;
-  color: #000;
+    background-color: #fff;
+    color: #000;
 }
 
 .btn.yellow {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  width: 250px;
-  height: 60px;
-  background-color: #ffd653;
-  border: 2px solid #ffd653;
-  border-radius: 4px;
-  color: #000;
-  font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 250px;
+    height: 60px;
+    background-color: #ffd653;
+    border: 2px solid #ffd653;
+    border-radius: 4px;
+    color: #000;
+    font-size: 1.2rem;
 }
 .btn.yellow:hover {
-  background-color: #fff;
-  color: #000;
+    background-color: #fff;
+    color: #000;
 }
 /* 공통 nd */
 
 /* 운성 */
 body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .header {
-  position: fixed;
-  top: 0;
-  z-index: 1000;
-  width: 100%;
-  height: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  background-color: #006ad5;
-  padding-right: 20px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #006ad5;
+    padding-right: 20px;
 }
 
 .logo {
-  width: 200px;
-  height: 70px;
-  background-image: url("https://ifh.cc/g/gz9Has.jpg");
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
+    width: 200px;
+    height: 70px;
+    background-image: url('https://ifh.cc/g/gz9Has.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .menu {
-  width: auto;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-left: auto; /* Start at the right */
-  margin-right: 20px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto; /* Start at the right */
+    margin-right: 20px;
 }
 .menu a {
-  text-decoration: none;
-  color: white;
-  padding: 10px 30px; /* 조절 가능한 패딩 값 */
-  cursor: pointer;
-  margin-left: 20px; /* 오른쪽 마진 추가 */
-  transition: all 0.4ms ease;
-  transition-duration: 2ms;
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px; /* 조절 가능한 패딩 값 */
+    cursor: pointer;
+    margin-left: 20px; /* 오른쪽 마진 추가 */
+    transition: all 0.4ms ease;
+    transition-duration: 2ms;
 }
 
 .menu a:hover {
-  color: #ffd653;
+    color: #ffd653;
 }
 
 .menu a:last-child {
-  margin-right: 0;
+    margin-right: 0;
 }
 
 .title {
-  color: white;
-  padding-right: 20px;
-  cursor: pointer; /* 손 모양 커서 추가 */
-  text-decoration: none; /* 밑줄 제거 */
+    color: white;
+    padding-right: 20px;
+    cursor: pointer; /* 손 모양 커서 추가 */
+    text-decoration: none; /* 밑줄 제거 */
 }
 
 .List {
-  width: 100%;
-  height: 100px;
-  margin-top: 20px;
-  display: flex;
-  align-items: center;
-  border: 2px solid black;
-  position: relative;
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    position: relative;
 }
 /* 운성 */
 
@@ -129,363 +129,363 @@ body {
 @import url(//fonts.googleapis.com/css?family=Lato:300:400);
 
 body {
-  margin: 0;
+    margin: 0;
 }
 
 /* 글자들 */
 h1 {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  letter-spacing: 2px;
-  font-size: 48px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 48px;
 }
 
 p {
-  font-family: "Lato", sans-serif;
-  letter-spacing: 2px;
-  font-size: 20px;
-  color: #333333;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: #333333;
 }
 .ourgoal1 {
-  opacity: 0.4;
-  font-size: 80px;
-  margin: 200px 60px 0px auto;
+    opacity: 0.4;
+    font-size: 80px;
+    margin: 200px 60px 0px auto;
 }
 .ourgoal {
-  opacity: 0.1;
-  font-size: 150px;
-  margin: 20px 40px 0px auto;
+    opacity: 0.1;
+    font-size: 150px;
+    margin: 20px 40px 0px auto;
 }
 /* 모형들 */
 
 .main {
-  position: fixed;
-  position: relative;
-  text-align: center;
-  background-color: #006ad5;
-  color: white;
+    position: fixed;
+    position: relative;
+    text-align: center;
+    background-color: #006ad5;
+    color: white;
 }
 
 .withoutwave {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .waves {
-  position: relative;
-  width: 100%;
-  height: 15vh;
-  margin-bottom: -7px;
-  /*Fix for safari gap*/
-  min-height: 100px;
-  max-height: 150px;
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    margin-bottom: -7px;
+    /*Fix for safari gap*/
+    min-height: 100px;
+    max-height: 150px;
 }
 
 .content {
-  position: relative;
-  height: 20vh;
-  text-align: center;
-  font-size: 25px;
+    position: relative;
+    height: 20vh;
+    text-align: center;
+    font-size: 25px;
 }
 
 .flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
 }
 
 .yhcard {
-  height: 510px;
-  width: 400px;
-  padding: 20px;
-  border: 2px solid #ffd7536e;
-  border-radius: 5vh;
-  /* margin: 0 5% 0 5%; */
-  margin-left: 20px;
-  /* padding: 5px 25px 5px 25px; */
+    height: 510px;
+    width: 400px;
+    padding: 20px;
+    border: 2px solid #ffd7536e;
+    border-radius: 5vh;
+    /* margin: 0 5% 0 5%; */
+    margin-left: 20px;
+    /* padding: 5px 25px 5px 25px; */
 }
 .yhc-body {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 .yhcard.scd img {
-  width: 220px;
-  padding-bottom: 20px;
+    width: 220px;
+    padding-bottom: 20px;
 }
 
 .yhcard img {
-  padding-top: 20px;
-  width: 300px;
+    padding-top: 20px;
+    width: 300px;
 }
 .yhcard ul {
-  list-style: none;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-direction: column;
-  padding: 0;
+    list-style: none;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    padding: 0;
 }
 .yhc-title {
-  background-color: #ffd7536e;
-  padding: 10px;
-  border-radius: 6px;
+    background-color: #ffd7536e;
+    padding: 10px;
+    border-radius: 6px;
 }
 .yhcard ul li {
-  padding-bottom: 6px;
+    padding-bottom: 6px;
 }
 /* Animation */
 
 .parallax > use {
-  animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+    animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
 }
 
 .parallax > use:nth-child(1) {
-  animation-delay: -2s;
-  animation-duration: 7s;
+    animation-delay: -2s;
+    animation-duration: 7s;
 }
 
 .parallax > use:nth-child(2) {
-  animation-delay: -3s;
-  animation-duration: 10s;
+    animation-delay: -3s;
+    animation-duration: 10s;
 }
 
 .parallax > use:nth-child(3) {
-  animation-delay: -4s;
-  animation-duration: 13s;
+    animation-delay: -4s;
+    animation-duration: 13s;
 }
 
 .parallax > use:nth-child(4) {
-  animation-delay: -5s;
-  animation-duration: 20s;
+    animation-delay: -5s;
+    animation-duration: 20s;
 }
 
 @keyframes move-forever {
-  0% {
-    transform: translate3d(-90px, 0, 0);
-  }
+    0% {
+        transform: translate3d(-90px, 0, 0);
+    }
 
-  100% {
-    transform: translate3d(85px, 0, 0);
-  }
+    100% {
+        transform: translate3d(85px, 0, 0);
+    }
 }
 
 /*for mobile*/
 @media (max-width: 768px) {
-  .waves {
-    height: 40px;
-    min-height: 40px;
-  }
+    .waves {
+        height: 40px;
+        min-height: 40px;
+    }
 
-  .content {
-    height: 30vh;
-  }
+    .content {
+        height: 30vh;
+    }
 
-  h1 {
-    font-size: 24px;
-  }
+    h1 {
+        font-size: 24px;
+    }
 }
 
 /* 연희 끝 */
 
 /* mainPage cardSection */
 .mainCards {
-  margin: 80px 0;
+    margin: 20px 0;
 }
 .mainCard {
-  display: flex;
-  flex-direction: row;
-  border: 1px solid rgba(0, 106, 213, 0.7);
-  border-radius: 5px;
-  justify-content: space-between;
-  width: 100%;
-  max-width: 1000px;
-  padding: 20px;
-  background-color: #f5faffc9;
-  margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgba(0, 106, 213, 0.7);
+    border-radius: 5px;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px;
+    padding: 20px;
+    background-color: #f5faffc9;
+    margin: 20px auto;
 }
 .mainCardImgBox {
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0px 30px 0 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 30px 0 10px;
 }
 .profileImageWrap {
-  width: 200px;
-  height: 200px;
-  border-radius: 70%;
-  overflow: hidden;
+    width: 200px;
+    height: 200px;
+    border-radius: 70%;
+    overflow: hidden;
 }
 .mainCardImg {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .mainProfileMbti {
-  margin: 20px 0 0 0;
-  font-size: 20px;
-  font-weight: 700;
-  color: #006ad5;
-  font-size: 2rem;
+    margin: 20px 0 0 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #006ad5;
+    font-size: 2rem;
 }
 
 .mainCardsContact ul {
-  padding: 0;
+    padding: 0;
 }
 .mainCardsContact ul li {
-  font-size: 0.8rem;
-  line-height: 1.4rem;
+    font-size: 0.8rem;
+    line-height: 1.4rem;
 }
 .mainCardsContact ul li a {
-  text-decoration: none;
-  color: #333;
-  cursor: pointer;
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
 }
 
 .mainCardsContents {
-  width: 658px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: space-between;
+    width: 658px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 
 .mainCardsContents p {
-  font-size: 1.2rem;
-  text-align: right;
+    font-size: 1.2rem;
+    text-align: right;
 }
 
 .mainCardsContentsCon {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 .mainCardsContentsCon .teamlogo {
-  width: 100px;
-  padding: 0;
-  /* background-color: #fff; */
+    width: 100px;
+    padding: 0;
+    /* background-color: #fff; */
 }
 .mainCardsContents p.title {
-  width: 300px;
-  color: #333333;
-  font-weight: 500;
-  background-color: #ffd7536e;
-  border-radius: 20px;
-  font-size: 1rem;
-  text-align: left;
-  text-indent: -2px;
+    width: 300px;
+    color: #333333;
+    font-weight: 500;
+    background-color: #ffd7536e;
+    border-radius: 20px;
+    font-size: 1rem;
+    text-align: left;
+    text-indent: -2px;
 }
 .mainCard ul {
-  list-style: none;
+    list-style: none;
 }
 .mainCard p:hover {
-  text-decoration: none;
-  cursor: none;
+    text-decoration: none;
+    cursor: none;
 }
 
 .mainCardsTxtBox {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 .mainCardsTxtBox ul {
-  list-style: none;
-  padding: 0;
+    list-style: none;
+    padding: 0;
 }
 
 .mainCardsTxtBox ul li {
-  padding-bottom: 6px;
+    padding-bottom: 6px;
 }
 
 .mainCardsTxtBox div {
-  margin-left: 40px;
+    margin-left: 40px;
 }
 .mainCard .mainCardsTxtBox div .title {
-  background-color: #fff;
-  font-size: 1.2rem;
-  margin: 0;
-  text-align: left;
-  padding: 0;
-  background-color: #ffd7536e;
-  border-radius: 12px;
-  text-indent: -2px;
+    background-color: #fff;
+    font-size: 1.2rem;
+    margin: 0;
+    text-align: left;
+    padding: 0;
+    background-color: #ffd7536e;
+    border-radius: 12px;
+    text-indent: -2px;
 }
 
 .mainCardsContents .btn {
-  text-decoration: none;
-  transition: all 300ms ease;
+    text-decoration: none;
+    transition: all 300ms ease;
 }
 
 .mainCardsContents .btn.default:hover {
-  transform: scale(1.02);
+    transform: scale(1.02);
 }
 
 /* 현우 작업본 */
 .item {
-  width: 360px;
-  height: 315px;
-  border: 1px solid black;
-  text-align: center;
+    width: 360px;
+    height: 315px;
+    border: 1px solid black;
+    text-align: center;
 
-  margin: 20px right 20px auto;
+    margin: 20px right 20px auto;
 }
 
 .container {
-  display: flex;
-  gap: 20px;
+    display: flex;
+    gap: 20px;
 
-  align-items: stretch;
+    align-items: stretch;
 }
 .container-wrapper {
-  width: fit-content;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 /* 윤서 작업본 */
 .mypostingbox {
-  width: 400px;
-  height: fit-content;
+    width: 400px;
+    height: fit-content;
 
-  padding: 30px;
-  box-shadow: 0px 0px 3px 0px black;
-  border-radius: 5px;
-  background-color: white;
+    padding: 30px;
+    box-shadow: 0px 0px 3px 0px black;
+    border-radius: 5px;
+    background-color: white;
 
-  justify-content: center;
+    justify-content: center;
 }
 .myimg {
-  width: 300px;
-  height: 300px;
+    width: 300px;
+    height: 300px;
 
-  margin: 30px auto 0px auto;
-  box-shadow: 0px 0px 3px 0px black;
-  border-radius: 50%;
-  overflow: hidden;
-  position: relative;
+    margin: 30px auto 0px auto;
+    box-shadow: 0px 0px 3px 0px black;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
 }
 .moge {
-  height: 200px;
-  font-family: "Jua", sans-serif;
-  text-align: center;
+    height: 200px;
+    font-family: 'Jua', sans-serif;
+    text-align: center;
 }
 .jua-regular {
-  font-family: "Jua", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 40px;
-  color: #006ad5;
-  margin: 20px;
+    font-family: 'Jua', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: #006ad5;
+    margin: 20px;
 
-  text-align: center;
+    text-align: center;
 }
 .card-img-top1 {
-  width: 100%;
-  /* height: 170px; */
+    width: 100%;
+    /* height: 170px; */
 }
