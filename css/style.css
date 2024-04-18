@@ -150,16 +150,17 @@ p {
 }
 
 .ourgoal {
-
+position: relative;
+right: 50px;
+bottom: -200px;
     opacity: 0.1;
     font-size: 150px;
-    width: 50px;
-    fill: white;
-    padding-right: 3%;
+    color: white;
+    /* width: 50px; */
+    /* fill: white; */
+    /* padding-right: 3%;
     padding-top: 20%;
-    display: inline-block;
-    vertical-align: middle;
-    white-space: nowrap;
+    white-space: nowrap; */
 }
 
 .ourname {
@@ -186,7 +187,9 @@ p {
 }
 
 .withoutwave {
-
+display:flex;
+align-items: center;
+justify-content: flex-end;
     height: 65vh;
     width: 100%;
     margin: 0;
