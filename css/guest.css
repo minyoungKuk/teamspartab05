@@ -74,40 +74,8 @@ a:hover {
 /* 운성님 헤더*/
 
 /* 현우 css*/
-.create {
-    margin: 10px auto;
-    height: 80px;
-    border: 3px solid black;
-    border-radius: 15px;
-}
-
-.btn {
-    width: 100px;
-    height: 75px;
-    margin-left: 10px;
-    border: 2px solid gray;
-    border-radius: 15px;
-    background-color: gray;
-    color: white;
-}
-
-.between {
-    display: flex;
-    align-items: center;
-    gap: 0px;
-    height: 90px;
-}
-
-.ex {
-    width: 800px;
-    margin: 120px auto;
-}
-.hr {
-    margin-top: 80px;
 
 
-
-}
 
 .mypostbox {
     width: 500px;
@@ -116,6 +84,7 @@ a:hover {
     border-radius: 5px;
     box-shadow: 0px 0px 3px 0px blue;
 }
+
 
 
 /* 연희 */
