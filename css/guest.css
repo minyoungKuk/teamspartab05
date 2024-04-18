@@ -140,7 +140,7 @@ a:hover {
 
 
 /* 연희 */
-@import url("../css/guest.css");
+
 
 .ournote{
     border-color: none;
@@ -150,6 +150,7 @@ a:hover {
     position: relative;
     display: flex;
     align-items:flex-end;
+    width: 45rem;
   
 
 }
