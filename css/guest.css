@@ -75,16 +75,24 @@ a:hover {
 
 /* 현우 css*/
 
-
-
-.mypostbox {
+.mypostingbox {
     width: 500px;
-    margin: 20px auto 20px auto;
-    padding: 20px 20px 20px 20px;
-    border-radius: 5px;
+    padding: 20px;
+    margin: 30px auto 0px auto;
+    margin-top: 100px;
     box-shadow: 0px 0px 3px 0px blue;
+    border-radius: 5px;
 }
 
+.mybtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mybtn>button {
+    margin-right: 5px;
+}
 
 
 /* 연희 */
