@@ -137,3 +137,21 @@ a:hover {
 .hr {
     margin-top: 80px;
 }
+
+
+/* 연희 */
+
+
+.ournote{
+    border-color: none;
+    background-color: #FFD653;
+    border-radius: 20px;
+    margin: 20px 200px 10px 200px;
+    position: relative;
+    display: flex;
+    align-items:flex-end;
+    width: 45rem;
+  
+
+}
+/* 연희 끝 */
