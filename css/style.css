@@ -379,6 +379,7 @@ p {
 .mainCard .mainCardsTxtBox div .title {
   background-color: #fff;
   font-size: 1.2rem;
+  width: 300px;
   margin: 0;
   text-align: left;
   padding: 0;
