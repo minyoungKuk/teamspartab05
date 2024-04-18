@@ -11,7 +11,7 @@
     <div class="header">
       <div class="logo"></div>
       <div class="menu">
-        <span class="title" onclick="scrollToTop()">코딩 쉽지 않조!</span>
+        <a class="title" onclick="scrollToTop()">코딩 쉽지 않조!</a>
         <a onclick="scrollToElement('#teamName')">팀 소개</a>
         <a onclick="scrollToElement('#firstMainCard', 'start')">팀원 소개</a>
       </div>
@@ -69,37 +69,53 @@
 
     <!--맨 밑-->
     <div class="ourname">
-      <div class="content flex">
+      <div class="content">
         <p></p>
       </div>
     </div>
 
-    <div class="flex">
-
-        <div>
-            <div class="yhcard1">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBmzocrJNdVO9aKdgIhUL8b-_xjEfi5-vvSSz6p4Pv6wN9nYnUZXZ4HxGWE3G3DwFTs9Y&usqp=CAU"
-                    class="card-img-top1" alt="...">
-                <div class="yhc-body">
-                    <h2 class="yhc-title">Our Goal🎈</h2>
-                    <p class="yhc-text">우린 해내조!<br><br>
-                      지식 공유 & 스킬 개발 <br><br>
-                      오류없는 사이트 만들기
-                    </p>
-                </div>
-            </div>
+    <div class="flex" id="teamName">
+      <div>
+        <div class="yhcard">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBmzocrJNdVO9aKdgIhUL8b-_xjEfi5-vvSSz6p4Pv6wN9nYnUZXZ4HxGWE3G3DwFTs9Y&usqp=CAU"
+            class="card-img-top1"
+            alt="..."
+          />
+          <div class="yhc-body">
+            <h2 class="yhc-title">Our Goal</h2>
+            <ul>
+              <li>코딩 힘들조? 우린 해내조!</li>
+              <li>지식 공유 & 스킬 개발</li>
+              <li>오류없는 사이트 만들기</li>
+            </ul>
+          </div>
         </div>
-        <div>
-            <div class="yhcard2">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh9RCRWmDc_sLZ7TirH-FtY98nE40K6M0dqA&s"
-                    class="card-img-top2" alt="...">
-                <div class="yhc-body">
-                    <h2 class="yhc-title">Our Character✨</h2>
-                    <p class="yhc-text">외향적인 리더가 이끄는 조용하지만 할건 하는 팀<br><br>
-                      다양한 배경과 관점을 가진 팀원들의 창의적인 아이디어<br><br>
-                      결과물을 지속적으로 공유하며 더 좋은 페이지를 위해 고민</p>
-                </div>
-            </div>
+      </div>
+      <div>
+        <div class="yhcard scd">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh9RCRWmDc_sLZ7TirH-FtY98nE40K6M0dqA&s"
+            class="card-img-top2"
+            alt="..."
+          />
+          <div class="yhc-body">
+            <h2 class="yhc-title">Our Character</h2>
+            <ul>
+              <li>
+                외향적인 리더가 이끄는 <br />
+                조용하지만 할건 하는 팀
+              </li>
+              <li>
+                다양한 배경과 관점을 가진 팀원들의 <br />
+                창의적인 아이디어
+              </li>
+              <li>
+                결과물을 지속적으로 공유하며 <br />
+                더 좋은 페이지를 위해 고민
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -190,14 +206,10 @@
           <div class="mainCardsContact">
             <ul>
               <li>
-                <a href="mailto: uperxwall@gamil.com"
-                  >✉️: ygim3010@gamil.com</a
-                >
+                <a href="mailto: uperxwall@gamil.com">✉️: ygim3010@gamil.com</a>
               </li>
               <li>
-                <a href="https://minyoungkuk.github.io/TIL/"
-                  >🌐: 아직 없음</a
-                >
+                <a href="https://minyoungkuk.github.io/TIL/">🌐: 아직 없음</a>
               </li>
               <li>
                 <a href="https://github.com/minyoungKuk"
