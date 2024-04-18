@@ -74,6 +74,7 @@ a:hover {
 /* 운성님 헤더*/
 
 /* 현우 css*/
+
 .btn {
     width: 100px;
     height: 75px;
@@ -85,20 +86,12 @@ a:hover {
 }
 
 .input_layout {
-    display: flex;
-    justify-content: space-evenly;
+    text-align: center;
 }
 
 .between {
     display: flex;
     align-items: center;
-    gap: 0px;
-    height: 90px;
-}
-
-.between2 {
-    display: flex;
-    justify-content: space-around;
     gap: 0px;
     height: 90px;
 }
@@ -113,26 +106,7 @@ a:hover {
 
 .ex {
     width: 800px;
-    margin: 120px 0px 0px 25%;
-}
-.circle1 {
-    width: 70px;
-    height: 70px;
-    border: 3px solid lightgrey;
-    border-radius: 50%;
-}
-.circle2 {
-    width: 70px;
-    height: 70px;
-    border: 3px solid lightgrey;
-    border-radius: 50%;
-}
-
-.one1 {
-    padding: 30px;
-}
-.one2 {
-    padding: 30px;
+    margin: 120px auto;
 }
 .hr {
     margin-top: 80px;
