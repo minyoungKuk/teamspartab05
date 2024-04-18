@@ -63,7 +63,7 @@ body {
   top: 0;
   z-index: 1000;
   width: 100%;
-  height: 80px;
+  height: 70px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -72,8 +72,8 @@ body {
 }
 
 .logo {
-  width: 300px;
-  height: 80px;
+  width: 200px;
+  height: 70px;
   background-image: url("https://ifh.cc/g/gz9Has.jpg");
   background-position: center;
   background-size: contain;
@@ -94,14 +94,16 @@ body {
   padding: 10px 30px; /* 조절 가능한 패딩 값 */
   cursor: pointer;
   margin-left: 20px; /* 오른쪽 마진 추가 */
+  transition: all 0.4ms ease;
+  transition-duration: 2ms;
+}
+
+.menu a:hover {
+  color: #ffd653;
 }
 
 .menu a:last-child {
   margin-right: 0;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 .title {
@@ -109,10 +111,6 @@ a:hover {
   padding-right: 20px;
   cursor: pointer; /* 손 모양 커서 추가 */
   text-decoration: none; /* 밑줄 제거 */
-}
-
-.title:hover {
-  text-decoration: underline; /* 마우스 오버 시 밑줄 효과 */
 }
 
 .List {
@@ -194,38 +192,52 @@ p {
 }
 
 .flex {
-  margin: 0 19% 0 19%;
-
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-bottom: 100px;
 }
 
-.yhcard1 {
+.yhcard {
+  height: 510px;
+  width: 400px;
+  padding: 20px;
+  border: 2px solid #ffd7536e;
+  border-radius: 5vh;
+  /* margin: 0 5% 0 5%; */
+  margin-left: 20px;
+  /* padding: 5px 25px 5px 25px; */
+}
+.yhc-body {
+  display: flex;
+  flex-direction: column;
+}
+.yhcard.scd img {
+  width: 220px;
+  padding-bottom: 20px;
+}
+
+.yhcard img {
+  padding-top: 20px;
   width: 300px;
-  height: 420px;
-  border-radius: 15vh;
-  border-style: ridge;
-  border-color: #006ad5;
-  border-width: 1px;
-  border-radius: 5vh;
-  margin: 0 5% 0 5%;
-  padding: 5px 25px 5px 25px;
 }
-
-.yhcard2 {
-  width: 650px;
-  height: 420px;
-  border-radius: 15vh;
-  border-style: ridge;
-  border-color: #006ad5;
-  border-width: 1px;
-  border-radius: 5vh;
-  margin: 0 5% 0 5%;
-  padding: 5px 25px 5px 25px;
+.yhcard ul {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-direction: column;
+  padding: 0;
 }
-
+.yhc-title {
+  background-color: #ffd7536e;
+  padding: 10px;
+  border-radius: 6px;
+}
+.yhcard ul li {
+  padding-bottom: 6px;
+}
 /* Animation */
 
 .parallax > use {
@@ -475,5 +487,5 @@ p {
 }
 .card-img-top1 {
   width: 100%;
-  height: 170px;
+  /* height: 170px; */
 }
