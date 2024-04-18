@@ -104,6 +104,17 @@ a:hover {
 }
 .hr {
     margin-top: 80px;
+
+
+
+}
+
+.mypostbox {
+    width: 500px;
+    margin: 20px auto 20px auto;
+    padding: 20px 20px 20px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 0px blue;
 }
 
 
