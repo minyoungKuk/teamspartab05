@@ -18,8 +18,8 @@ body {
   justify-content: center;
   width: 250px;
   height: 60px;
-  background-color: rgba(0, 106, 213, 0.7);
-  border: 2px solid rgba(0, 106, 213, 0.7);
+  background-color: #006ad5;
+  border: 2px solid #006ad5;
   border-radius: 4px;
   color: #fff;
   font-size: 1.2rem;
@@ -63,20 +63,21 @@ body {
   top: 0;
   z-index: 1000;
   width: 100%;
-  height: 100px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  background-color: #333333;
+  background-color: #006ad5;
   padding-right: 20px;
 }
 
 .logo {
   width: 300px;
-  height: 100px;
-  background-image: url("https://ifh.cc/g/31dCk4.png");
+  height: 80px;
+  background-image: url("https://ifh.cc/g/gz9Has.jpg");
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .menu {
@@ -130,157 +131,184 @@ a:hover {
 @import url(//fonts.googleapis.com/css?family=Lato:300:400);
 
 body {
-  margin: 0;
+    margin: 0;
 }
 
 /* 글자들 */
 h1 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  letter-spacing: 2px;
-  font-size: 48px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 48px;
 }
 
 p {
-  font-family: 'Lato', sans-serif;
-  letter-spacing: 2px;
-  font-size: 20px;
-  color: #333333;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: #333333;
 }
 
-.bo5 {
-  opacity: 0.1;
-  font-size: 300px;
-  width: 50px;
-  fill: white;
-  padding-right: 15px;
-  display: inline-block;
-  vertical-align: middle;
+.ourgoal {
+
+    opacity: 0.1;
+    font-size: 150px;
+    width: 50px;
+    fill: white;
+    padding-right: 3%;
+    padding-top: 20%;
+    display: inline-block;
+    vertical-align: middle;
+    white-space: nowrap;
 }
+
+.ourname {
+    text-decoration-line: underline;
+    text-decoration-color: #006AD5;
+    text-decoration-style: double;
+    text-decoration-thickness: 0.8px;
+}
+
+
 
 /* 모형들 */
 
 .main {
-  position: fixed;
-  position: relative;
-  text-align: center;
-  background-color: #006ad5;
-  color: white;
+    position: fixed;
+    position: relative;
+    text-align: center;
+    background-color: #006AD5;
+    color: white;
+
+
 }
 
 .withoutwave {
-  height: 65vh;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+
+    height: 65vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
+
 
 .waves {
-  position: relative;
-  width: 100%;
-  height: 15vh;
-  margin-bottom: -7px;
-  /*Fix for safari gap*/
-  min-height: 100px;
-  max-height: 150px;
+
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    margin-bottom: -7px;
+    /*Fix for safari gap*/
+    min-height: 100px;
+    max-height: 150px;
 }
 
+
 .content {
-  position: relative;
-  height: 20vh;
-  text-align: center;
-  background-color: white;
+
+    position: relative;
+    height: 20vh;
+    text-align: center;
+    font-size: 25px;
+
+
+
 }
 
 .flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
+
+.yhcard {
+    border-radius: 15vh;
+    border-style: dashed;
+    border-color: #FE574B;
+    border-width: 3px;
+    border-radius: 5vh;
+    margin: 0 5% 0 5%;
+    padding: 5px 25px 5px 25px;
+
+}
+
 
 /* Animation */
 
-.parallax > use {
-  animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+.parallax>use {
+    animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
 }
 
-.parallax > use:nth-child(1) {
-  animation-delay: -2s;
-  animation-duration: 7s;
+.parallax>use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
 }
 
-
-.parallax > use:nth-child(2) {
-  animation-delay: -3s;
-  animation-duration: 10s;
-
+.parallax>use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
 }
 
-.parallax > use:nth-child(3) {
-  animation-delay: -4s;
-  animation-duration: 13s;
+.parallax>use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
 }
 
-.parallax > use:nth-child(4) {
-  animation-delay: -5s;
-  animation-duration: 20s;
+.parallax>use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
 }
+
 
 @keyframes move-forever {
-  0% {
-    transform: translate3d(-90px, 0, 0);
-  }
+    0% {
+        transform: translate3d(-90px, 0, 0);
+    }
 
-  100% {
-    transform: translate3d(85px, 0, 0);
-  }
+    100% {
+        transform: translate3d(85px, 0, 0);
+    }
 }
+
 
 /*for mobile*/
 @media (max-width: 768px) {
-  .waves {
-    height: 40px;
-    min-height: 40px;
-  }
+    .waves {
+        height: 40px;
+        min-height: 40px;
+    }
 
-  .content {
-    height: 30vh;
-  }
+    .content {
+        height: 30vh;
+    }
 
-  h1 {
-    font-size: 24px;
-  }
+    h1 {
+        font-size: 24px;
+    }
 }
 
-.main > button {
-  width: 150px;
-  height: 50px;
-  background-color: #ffd653;
-  border: none;
-  color: black;
-  font-size: 18px;
-  font-weight: bold;
-  border-radius: 50px;
-}
 
-/* 연희 */
+
+/* 연희 끝 */
+
 
 /* mainPage cardSection */
 .mainCards {
   margin: 80px 0;
-  padding: 20px;
 }
 .mainCard {
   display: flex;
   flex-direction: row;
-  border: 2px solid rgba(0, 106, 213, 0.7);
+  border: 1px solid rgba(0, 106, 213, 0.7);
   border-radius: 5px;
   justify-content: space-between;
   width: 100%;
-  height: 25vh;
+  max-width: 1000px;
   padding: 20px;
-  margin-bottom: 20px;
+  background-color: #f5faffc9;
+  margin: 20px auto;
 }
 .mainCardImgBox {
   display: flex;
@@ -289,8 +317,8 @@ p {
   margin: 0px 30px 0 10px;
 }
 .profileImageWrap {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border-radius: 70%;
   overflow: hidden;
 }
@@ -299,21 +327,93 @@ p {
   height: 100%;
   object-fit: cover;
 }
-.mainProfileName {
+
+.mainProfileMbti {
   margin: 20px 0 0 0;
   font-size: 20px;
   font-weight: 700;
-  color: rgba(0, 106, 213, 0.7);
+  color: #006ad5;
+  font-size: 2rem;
+}
+
+.mainCardsContact ul {
+  padding: 0;
+}
+.mainCardsContact ul li {
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+}
+.mainCardsContact ul li a {
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
 }
 
 .mainCardsContents {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  justify-content: space-between;
 }
-.mainCardsContents p { 
+
+.mainCardsContents p {
   font-size: 1.2rem;
-  text-align: right; 
+  text-align: right;
+}
+
+.mainCardsContentsCon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.mainCardsContentsCon .teamlogo {
+  width: 100px;
+  padding: 0;
+  /* background-color: #fff; */
+}
+.mainCardsContents p.title {
+  color: #333333;
+  font-weight: 500;
+  background-color: #ffd7536e;
+  border-radius: 20px;
+  font-size: 1rem;
+  text-align: left;
+  text-indent: -2px;
+}
+.mainCard ul {
+  list-style: none;
+}
+.mainCard p:hover {
+  text-decoration: none;
+  cursor: none;
+}
+
+.mainCardsTxtBox {
+  display: flex;
+  flex-direction: row;
+}
+
+.mainCardsTxtBox ul {
+  list-style: none;
+  padding: 0;
+}
+
+.mainCardsTxtBox ul li {
+  padding-bottom: 6px;
+}
+
+.mainCardsTxtBox div {
+  margin-left: 40px;
+}
+.mainCard .mainCardsTxtBox div .title {
+  background-color: #fff;
+  font-size: 1.2rem;
+  margin: 0;
+  text-align: left;
+  padding: 0;
+  background-color: #ffd7536e;
+  border-radius: 12px;
+  text-indent: -2px;
 }
 
 .mainCardsContents .btn {
@@ -349,7 +449,6 @@ p {
   display: flex;
   flex-direction: column;
   gap: 20px;
-
 }
 /* 윤서 작업본 */
 .mypostingbox {
@@ -390,5 +489,4 @@ p {
   margin: 20px;
 
   text-align: center;
-
 }
