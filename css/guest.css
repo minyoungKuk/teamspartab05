@@ -115,6 +115,9 @@ a:hover {
 
 /* 연희 */
 
+.wholenote{
+    margin: auto;
+}
 
 .ournote{
     border-color: none;
@@ -124,8 +127,7 @@ a:hover {
     position: relative;
     display: flex;
     align-items:flex-end;
-    margin-top: 5%;
-    margin-left: 25%;
+margin : 10px auto;
   }
 
   .card-body{
