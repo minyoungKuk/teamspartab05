@@ -437,9 +437,6 @@ p {
   text-align: center;
 
   margin: 20px right 20px auto;
-  h2 {
-    border-bottom: 1px solid black;
-  }
 }
 
 .container {
@@ -480,9 +477,7 @@ p {
   height: 200px;
   font-family: "Jua", sans-serif;
   text-align: center;
-  h2 {
-    margin: 10px;
-  }
+ 
 }
 .jua-regular {
   font-family: "Jua", sans-serif;
