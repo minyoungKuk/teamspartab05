@@ -74,19 +74,21 @@ a:hover {
 /* 운성님 헤더*/
 
 /* 현우 css*/
+.create {
+    margin: 10px auto;
+    height: 80px;
+    border: 3px solid black;
+    border-radius: 15px;
+}
 
 .btn {
     width: 100px;
     height: 75px;
     margin-left: 10px;
     border: 2px solid gray;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: gray;
     color: white;
-}
-
-.input_layout {
-    text-align: center;
 }
 
 .between {
@@ -94,14 +96,6 @@ a:hover {
     align-items: center;
     gap: 0px;
     height: 90px;
-}
-
-.between input {
-    height: 20px;
-}
-
-.input_ver1 {
-    background-color: lightgray;
 }
 
 .ex {
